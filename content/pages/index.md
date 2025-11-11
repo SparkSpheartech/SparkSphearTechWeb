@@ -4,27 +4,25 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Your Vision, Structured to Scale
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Empowering Small Businesses in the Digital World
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      SparkSphear Tech Solutions delivers personalized IT services, digital marketing, and creative solutions to help businesses in the Greater Fort Wayne area thrive. From boosting your Google rankings to 24/7 tech support, we're your trusted technology partner.
     actions:
-      - label: Get started
-        altText: ''
-        url: /
+      - label: Get Started
+        altText: 'Contact SparkSphear Tech Solutions'
+        url: /#contact
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: secondary
         elementId: ''
         type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
+      - label: View Our Services
+        altText: 'Learn about our services'
+        url: /#services
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -33,11 +31,11 @@ sections:
         type: Link
     media:
       url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      altText: SparkSphear Tech Solutions - Your Vision, Structured to Scale
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Founded 2022
       color: text-primary
       type: Badge
     elementId: ''
@@ -53,23 +51,21 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Our Services
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Comprehensive IT Solutions for Your Business
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: Digital Marketing
+        subtitle: Boost Your Online Presence
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          From Google rankings to social media launches and professional website creation, we help you reach your target audience and grow your digital footprint.
         actions: []
-        elementId: null
+        elementId: services
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
@@ -84,21 +80,19 @@ sections:
             textAlign: left
         image:
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
+          altText: Digital Marketing Services
           elementId: ''
           url: /images/icon1.svg
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: Technology Support
+        subtitle: 24/7 Technical Assistance
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Round-the-clock technical support for all your devices and systems. We keep your technology running smoothly so you can focus on your business.
         image:
           url: /images/icon2.svg
-          altText: Featured icon two
+          altText: Technology Support Services
           elementId: ''
           type: ImageBlock
         actions: []
@@ -115,15 +109,13 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: Photography & Videography
+        subtitle: Professional Visual Solutions
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          High-quality photography and videography services tailored for businesses. Capture your brand's story with compelling visual content.
         image:
           url: /images/icon3.svg
-          altText: Featured icon three
+          altText: Photography and Videography Services
           elementId: ''
           type: ImageBlock
         actions: []
@@ -138,10 +130,33 @@ sections:
             borderRadius: x-large
             flexDirection: row
         type: FeaturedItem
+      - title: Infrastructure Audits
+        subtitle: AI-Powered Optimization
+        text: >-
+          Comprehensive infrastructure audits and AI-powered workflow solutions. Optimize your business performance and identify opportunities for growth.
+        image:
+          url: /images/icon1.svg
+          altText: Infrastructure Audit Services
+          elementId: ''
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+            textAlign: left
+            justifyContent: center
+        type: FeaturedItem
     actions:
-      - label: Get started
-        altText: ''
-        url: /
+      - label: Contact Us Today
+        altText: 'Contact SparkSphear Tech Solutions'
+        url: /#contact
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -149,14 +164,14 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: Services
       color: text-primary
       styles:
         self:
           textAlign: center
       type: Badge
     elementId: ''
-    variant: three-col-grid
+    variant: four-col-grid
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -168,7 +183,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award winning enterprises trust us
+  - subtitle: Trusted by businesses in the Greater Fort Wayne Area
     images:
       - url: /images/empathy-logo.svg
         altText: Empathy logo
@@ -229,20 +244,17 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: Grow your business 10x faster
+      text: Why Choose SparkSphear?
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: This is a subtitle
+    subtitle: We're Your Technology Partner
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Founded in 2022, SparkSphear Tech Solutions has been dedicated to helping small businesses in the Greater Fort Wayne area succeed in the digital world. We combine technical expertise with personalized service to deliver solutions that truly make a difference. From enhancing your online presence to keeping your systems running smoothly, we're here for you every step of the way.
     media:
-      title: Title of the video
+      title: SparkSphear in Action
       url: /images/placeholder-video.mp4
       controls: false
       aspectRatio: '16:9'
@@ -262,7 +274,7 @@ sections:
       loop: true
       muted: true
     badge:
-      label: Key Benefits
+      label: About Us
       color: text-primary
       styles:
         self:
@@ -276,24 +288,28 @@ sections:
       subtitle:
         textAlign: center
     type: GenericSection
+    elementId: about
   - type: GenericSection
     title:
-      text: Generic section with a video
+      text: Digital Marketing Excellence
       color: text-dark
       styles:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: Section with a video subtitle
+    subtitle: Grow Your Online Presence
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions: []
+      Boost your Google rankings, launch powerful social media campaigns, and create stunning websites that convert. Our digital marketing experts help you connect with your target audience and drive measurable results for your business.
+    actions:
+      - label: Learn More
+        url: /#contact
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Button
     media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
+      title: Digital Marketing Services
+      url: /images/hero2.svg
       autoplay: true
       loop: true
       muted: true
@@ -320,33 +336,25 @@ sections:
       subtitle:
         textAlign: left
   - title:
-      text: Social Media Management
+      text: 24/7 Technology Support
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
+    subtitle: Keep Your Business Running
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Technical issues don't follow a 9-to-5 schedule, and neither do we. Our expert support team is available around the clock to assist with all your devices and systems, ensuring your business stays productive.
     actions:
-      - label: Get started
-        url: /
+      - label: Get Support
+        url: /#contact
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
     media:
       url: /images/hero2.svg
-      altText: Fun feature preview
+      altText: Technology Support Services
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Always Available
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -355,33 +363,25 @@ sections:
         alignItems: center
     type: GenericSection
   - title:
-      text: Business Consulting
+      text: Professional Photography & Videography
       color: text-dark
       type: TitleBlock
-    subtitle: Be in good company
+    subtitle: Visual Content That Tells Your Story
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      Capture your brand's essence with high-quality photography and videography services. From product shots to promotional videos, we create compelling visual content that engages your audience.
     actions:
-      - label: Get started
-        url: /
+      - label: View Portfolio
+        url: /#contact
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
     media:
       url: /images/hero3.svg
-      altText: Dope design preview
+      altText: Photography and Videography Services
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Creative Services
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -402,7 +402,7 @@ sections:
     type: DividerSection
   - type: CarouselSection
     title: null
-    subtitle: What our customers say about us
+    subtitle: Client Success Stories
     items:
       - title: >-
           “A designer knows he has achieved perfection not when there is nothing
@@ -589,22 +589,22 @@ sections:
       subtitle:
         textAlign: center
   - title:
-      text: List of features here
+      text: What Sets Us Apart
       color: text-primary
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    subtitle: Our Commitment to Excellence
     items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Personalized Service
+        tagline: Your Success is Our Priority
+        subtitle: Tailored Solutions
         text: |
-          Follow the tutorial to build your first Netlify Create site.
+          We take the time to understand your unique business needs and deliver customized solutions that drive real results. No cookie-cutter approaches here.
         image:
           url: /images/abstract-feature1.svg
-          altText: Placeholder Image
+          altText: Personalized IT Services
           styles:
             self:
               borderRadius: x-large
@@ -620,14 +620,14 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Local Expertise
+        tagline: Greater Fort Wayne Area
+        subtitle: Community Focused
         text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+          As a local business, we understand the unique challenges and opportunities in our community. We're invested in your success.
         image:
           url: /images/abstract-feature2.svg
-          altText: Placeholder image
+          altText: Local Business Support
           styles:
             self:
               borderRadius: x-large
@@ -643,14 +643,14 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Proven Results
+        tagline: Since 2022
+        subtitle: Track Record of Success
         text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
+          Our clients see measurable improvements in their online presence, operational efficiency, and business growth.
         image:
           url: /images/abstract-feature1.svg
-          altText: Placeholder image
+          altText: Proven IT Solutions
           styles:
             self:
               borderRadius: x-large
@@ -680,15 +680,12 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
   - title:
-      text: Generic Section With A Form
+      text: Get In Touch
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Let's Transform Your Business Together
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Ready to take your business to the next level? Contact SparkSphear Tech Solutions today. Whether you need digital marketing, technology support, creative services, or infrastructure optimization, we're here to help. Call us at (260) 267-0641 or fill out the form below.
     media:
       fields:
         - name: name
@@ -705,10 +702,17 @@ sections:
           isRequired: true
           width: full
           type: EmailFormControl
+        - name: phone
+          label: Phone
+          hideLabel: true
+          placeholder: Your phone number (optional)
+          isRequired: false
+          width: full
+          type: TextFormControl
         - name: message
           label: Message
           hideLabel: true
-          placeholder: Your message
+          placeholder: Tell us about your project or needs
           width: full
           type: TextareaFormControl
       elementId: contact-form
@@ -726,7 +730,7 @@ sections:
       type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
+        label: Send Message
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -738,9 +742,10 @@ sections:
       type: Badge
     colors: bg-light-fg-dark
     type: GenericSection
+    elementId: contact
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
+  metaTitle: Home - SparkSphear Tech Solutions
+  metaDescription: SparkSphear Tech Solutions delivers personalized IT services, digital marketing, and creative solutions to help small businesses in the Greater Fort Wayne area thrive. Your Vision, Structured to Scale.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
