@@ -9,7 +9,7 @@ excerpt: >-
   pellentesque fermentum. Sed in facilisis dui.
 featuredImage:
   url: /images/Screenshot 2025-11-25 184434.png
-  altText: Case study 1
+  altText: WebOne
   styles:
     self:
       borderRadius: large
