@@ -4,15 +4,18 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Your Vision, Structured to Scale
+      text: 'Your Vision, Structured to Scale'
       color: text-dark
       type: TitleBlock
     subtitle: Empowering Small Businesses in the Digital World
     text: >
-      SparkSphear Tech Solutions delivers personalized IT services, digital marketing, and creative solutions to help businesses in the Greater Fort Wayne area thrive. From boosting your Google rankings to 24/7 tech support, we're your trusted technology partner.
+      SparkSphear Tech Solutions delivers personalized IT services, digital
+      marketing, and creative solutions to help businesses in the Greater Fort
+      Wayne area thrive. From boosting your Google rankings to 24/7 tech
+      support, we're your trusted technology partner.
     actions:
       - label: Get Started
-        altText: 'Contact SparkSphear Tech Solutions'
+        altText: Contact SparkSphear Tech Solutions
         url: /#contact
         showIcon: false
         icon: arrowRight
@@ -21,7 +24,7 @@ sections:
         elementId: ''
         type: Button
       - label: View Our Services
-        altText: 'Learn about our services'
+        altText: Learn about our services
         url: /#services
         showIcon: true
         icon: arrowRight
@@ -30,8 +33,8 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
-      altText: SparkSphear Tech Solutions - Your Vision, Structured to Scale
+      url: /images/SparkSphearTechSolutionsMascotLogo.jpg
+      altText: 'SparkSphear Tech Solutions - Your Vision, Structured to Scale'
       elementId: ''
       type: ImageBlock
     badge:
@@ -63,7 +66,9 @@ sections:
         title: Digital Marketing
         subtitle: Boost Your Online Presence
         text: >-
-          From Google rankings to social media launches and professional website creation, we help you reach your target audience and grow your digital footprint.
+          From Google rankings to social media launches and professional website
+          creation, we help you reach your target audience and grow your digital
+          footprint.
         actions: []
         elementId: services
         colors: bg-neutralAlt-fg-dark
@@ -89,7 +94,9 @@ sections:
       - title: Technology Support
         subtitle: 24/7 Technical Assistance
         text: >-
-          Round-the-clock technical support for all your devices and systems. We keep your technology running smoothly so you can focus on your business.
+          Round-the-clock technical support for all your devices and systems. We
+          keep your technology running smoothly so you can focus on your
+          business.
         image:
           url: /images/icon2.svg
           altText: Technology Support Services
@@ -112,7 +119,8 @@ sections:
       - title: Photography & Videography
         subtitle: Professional Visual Solutions
         text: >-
-          High-quality photography and videography services tailored for businesses. Capture your brand's story with compelling visual content.
+          High-quality photography and videography services tailored for
+          businesses. Capture your brand's story with compelling visual content.
         image:
           url: /images/icon3.svg
           altText: Photography and Videography Services
@@ -133,7 +141,9 @@ sections:
       - title: Infrastructure Audits
         subtitle: AI-Powered Optimization
         text: >-
-          Comprehensive infrastructure audits and AI-powered workflow solutions. Optimize your business performance and identify opportunities for growth.
+          Comprehensive infrastructure audits and AI-powered workflow solutions.
+          Optimize your business performance and identify opportunities for
+          growth.
         image:
           url: /images/icon1.svg
           altText: Infrastructure Audit Services
@@ -155,7 +165,7 @@ sections:
         type: FeaturedItem
     actions:
       - label: Contact Us Today
-        altText: 'Contact SparkSphear Tech Solutions'
+        altText: Contact SparkSphear Tech Solutions
         url: /#contact
         showIcon: false
         icon: arrowRight
@@ -251,8 +261,13 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: We're Your Technology Partner
-    text: |-
-      Founded in 2022, SparkSphear Tech Solutions has been dedicated to helping small businesses in the Greater Fort Wayne area succeed in the digital world. We combine technical expertise with personalized service to deliver solutions that truly make a difference. From enhancing your online presence to keeping your systems running smoothly, we're here for you every step of the way.
+    text: >-
+      Founded in 2022, SparkSphear Tech Solutions has been dedicated to helping
+      small businesses in the Greater Fort Wayne area succeed in the digital
+      world. We combine technical expertise with personalized service to deliver
+      solutions that truly make a difference. From enhancing your online
+      presence to keeping your systems running smoothly, we're here for you
+      every step of the way.
     media:
       title: SparkSphear in Action
       url: /images/placeholder-video.mp4
@@ -298,8 +313,11 @@ sections:
           textAlign: left
       type: TitleBlock
     subtitle: Grow Your Online Presence
-    text: |-
-      Boost your Google rankings, launch powerful social media campaigns, and create stunning websites that convert. Our digital marketing experts help you connect with your target audience and drive measurable results for your business.
+    text: >-
+      Boost your Google rankings, launch powerful social media campaigns, and
+      create stunning websites that convert. Our digital marketing experts help
+      you connect with your target audience and drive measurable results for
+      your business.
     actions:
       - label: Learn More
         url: /#contact
@@ -341,7 +359,9 @@ sections:
       type: TitleBlock
     subtitle: Keep Your Business Running
     text: >
-      Technical issues don't follow a 9-to-5 schedule, and neither do we. Our expert support team is available around the clock to assist with all your devices and systems, ensuring your business stays productive.
+      Technical issues don't follow a 9-to-5 schedule, and neither do we. Our
+      expert support team is available around the clock to assist with all your
+      devices and systems, ensuring your business stays productive.
     actions:
       - label: Get Support
         url: /#contact
@@ -368,7 +388,9 @@ sections:
       type: TitleBlock
     subtitle: Visual Content That Tells Your Story
     text: >
-      Capture your brand's essence with high-quality photography and videography services. From product shots to promotional videos, we create compelling visual content that engages your audience.
+      Capture your brand's essence with high-quality photography and videography
+      services. From product shots to promotional videos, we create compelling
+      visual content that engages your audience.
     actions:
       - label: View Portfolio
         url: /#contact
@@ -435,7 +457,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
+          "Design is a plan for arranging elements in such a way as best to
+          accomplish a particular purpose."
         tagline: Testimonial 2
         subtitle: 'John Doe, Company'
         text: >-
@@ -464,7 +487,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
+          "Design is how it works, how it functions. Good design doesn't just
+          make a product aesthetically pleasing, it makes it a pleasure to use."
         tagline: Testimonial 3
         subtitle: 'Maria Walters, Company'
         text: >-
@@ -523,7 +547,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
+          "Design can be art. Design can be aesthetics. Design is so simple,
+          that's why it is so complicated."
         tagline: Testimonial 5
         subtitle: 'Jane Walters, Company'
         text: >-
@@ -552,7 +577,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
+          “Quote from some important person goes right here. I love using
+          Netlify Create.”
         tagline: Testimonial 6
         subtitle: 'Jane Doe, Company'
         text: >-
@@ -600,8 +626,10 @@ sections:
       - title: Personalized Service
         tagline: Your Success is Our Priority
         subtitle: Tailored Solutions
-        text: |
-          We take the time to understand your unique business needs and deliver customized solutions that drive real results. No cookie-cutter approaches here.
+        text: >
+          We take the time to understand your unique business needs and deliver
+          customized solutions that drive real results. No cookie-cutter
+          approaches here.
         image:
           url: /images/abstract-feature1.svg
           altText: Personalized IT Services
@@ -623,8 +651,9 @@ sections:
       - title: Local Expertise
         tagline: Greater Fort Wayne Area
         subtitle: Community Focused
-        text: |
-          As a local business, we understand the unique challenges and opportunities in our community. We're invested in your success.
+        text: >
+          As a local business, we understand the unique challenges and
+          opportunities in our community. We're invested in your success.
         image:
           url: /images/abstract-feature2.svg
           altText: Local Business Support
@@ -646,8 +675,9 @@ sections:
       - title: Proven Results
         tagline: Since 2022
         subtitle: Track Record of Success
-        text: |
-          Our clients see measurable improvements in their online presence, operational efficiency, and business growth.
+        text: >
+          Our clients see measurable improvements in their online presence,
+          operational efficiency, and business growth.
         image:
           url: /images/abstract-feature1.svg
           altText: Proven IT Solutions
@@ -684,8 +714,11 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Let's Transform Your Business Together
-    text: |-
-      Ready to take your business to the next level? Contact SparkSphear Tech Solutions today. Whether you need digital marketing, technology support, creative services, or infrastructure optimization, we're here to help. Call us at (260) 267-0641 or fill out the form below.
+    text: >-
+      Ready to take your business to the next level? Contact SparkSphear Tech
+      Solutions today. Whether you need digital marketing, technology support,
+      creative services, or infrastructure optimization, we're here to help.
+      Call us at (260) 267-0641 or fill out the form below.
     media:
       fields:
         - name: name
@@ -745,7 +778,10 @@ sections:
     elementId: contact
 seo:
   metaTitle: Home - SparkSphear Tech Solutions
-  metaDescription: SparkSphear Tech Solutions delivers personalized IT services, digital marketing, and creative solutions to help small businesses in the Greater Fort Wayne area thrive. Your Vision, Structured to Scale.
+  metaDescription: >-
+    SparkSphear Tech Solutions delivers personalized IT services, digital
+    marketing, and creative solutions to help small businesses in the Greater
+    Fort Wayne area thrive. Your Vision, Structured to Scale.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
