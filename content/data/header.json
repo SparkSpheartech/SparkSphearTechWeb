@@ -10,8 +10,7 @@
                 "borderRadius": "none"
             }
         },
-        "type": "ImageBlock",
-        "url": "/images/SparkSphearTechSolutionsMascotLogo.jpg"
+        "type": "ImageBlock"
     },
     "primaryLinks": [
         {
