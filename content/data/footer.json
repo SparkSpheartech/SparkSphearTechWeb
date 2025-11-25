@@ -1,33 +1,41 @@
 {
     "logo": {
         "url": "/images/logo-white.svg",
-        "altText": "Logo light",
+        "altText": "SparkSphear Tech Solutions Logo",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "SparkSphearTechSolutions - Empowering small businesses in the Greater Fort Wayne area with IT services, digital marketing, and creative solutions.\n",
     "primaryLinks": {
-        "title": "Product",
+        "title": "Services",
         "links": [
             {
-                "label": "Features",
-                "altText": "Features page",
-                "url": "/",
+                "label": "Digital Marketing",
+                "altText": "Digital Marketing Services",
+                "url": "/#services",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Pricing",
-                "url": "/pricing",
+                "label": "Technology Support",
+                "url": "/#services",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Documentation",
-                "url": "/",
+                "label": "Photography & Videography",
+                "url": "/#services",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "Infrastructure Audits",
+                "url": "/#services",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -40,9 +48,9 @@
         "title": "Company",
         "links": [
             {
-                "label": "Careers",
-                "altText": "careers page",
-                "url": "/careers",
+                "label": "About",
+                "altText": "About SparkSphear",
+                "url": "/#about",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -55,33 +63,41 @@
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
+            },
+            {
+                "label": "Contact",
+                "url": "/#contact",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
             }
         ],
         "type": "FooterLinksGroup"
     },
     "socialLinks": [
         {
-            "altText": "GitHub link",
-            "url": "https://github.com/netlify",
-            "icon": "github",
+            "altText": "Email SparkSphear",
+            "url": "mailto:SparkSphear4me@gmail.com",
+            "icon": "mail",
             "type": "Social"
         },
         {
-            "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
-            "icon": "twitter",
-            "type": "Social"
-        },
-        {
-            "altText": "LinkedIn link",
-            "url": "https://www.linkedin.com/company/netlify",
+            "altText": "LinkedIn",
+            "url": "https://www.linkedin.com/company/sparkspheartechsolutions",
             "icon": "linkedin",
             "type": "Social"
         },
         {
-            "altText": "Email link",
-            "url": "/",
-            "icon": "mail",
+            "altText": "Facebook",
+            "url": "https://www.facebook.com/sparkspheartechsolutions",
+            "icon": "facebook",
+            "type": "Social"
+        },
+        {
+            "altText": "Instagram",
+            "url": "https://www.instagram.com/sparkspheartechsolutions",
+            "icon": "instagram",
             "type": "Social"
         }
     ],
@@ -103,7 +119,7 @@
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Netlify](https://www.netlify.com/)\n",
+    "copyrightText": "© 2025 SparkSphear Tech Solutions. All rights reserved. | Greater Fort Wayne Area | (260) 267-0641\n",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }

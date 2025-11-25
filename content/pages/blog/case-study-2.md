@@ -1,5 +1,5 @@
 ---
-title: Case study 2
+title: Frontier's Future
 slug: case-study-2
 date: '2022-02-16'
 excerpt: >-
@@ -8,8 +8,8 @@ excerpt: >-
   Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem
   pellentesque fermentum. Sed in facilisis dui.
 featuredImage:
-  url: /images/img-placeholder.svg
-  altText: Case study 2
+  url: /images/Screenshot 2025-11-25 184621.png
+  altText: 'Frontier''s Future '
   styles:
     self:
       borderRadius: x-large
