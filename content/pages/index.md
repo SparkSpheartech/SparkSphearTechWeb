@@ -260,7 +260,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: We're Your Technology Partner
+    subtitle: 'We''re Your guide through the Tech landscape '
     text: >-
       Founded in 2022, SparkSphear Tech Solutions has been dedicated to helping
       small businesses in the Greater Fort Wayne area succeed in the digital
