@@ -6,7 +6,8 @@
                 "margin": [
                     "mr-3"
                 ],
-                "borderWidth": 2
+                "borderWidth": 2,
+                "borderRadius": "none"
             }
         },
         "type": "ImageBlock",
