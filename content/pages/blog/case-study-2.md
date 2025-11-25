@@ -9,7 +9,7 @@ excerpt: >-
   pellentesque fermentum. Sed in facilisis dui.
 featuredImage:
   url: /images/Screenshot 2025-11-25 184621.png
-  altText: Case study 2
+  altText: 'Frontier''s Future '
   styles:
     self:
       borderRadius: x-large
