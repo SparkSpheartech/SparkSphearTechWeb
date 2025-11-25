@@ -261,13 +261,25 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: 'We''re Your guide through the Digital frontier '
-    text: >-
-      Founded in 2022, SparkSphear Tech Solutions has been dedicated to helping
-      small businesses in the Greater Fort Wayne area succeed in the digital
-      world. We combine technical expertise with personalized service to deliver
-      solutions that truly make a difference. From enhancing your online
-      presence to keeping your systems running smoothly, we're here for you
-      every step of the way.
+    text: >+
+      **Founded in 2022, SparkSphear Tech Solutions has become a trusted
+      technology partner for small businesses across the Greater Fort Wayne
+      area.** We specialize in delivering affordable, reliable, and scalable IT
+      solutions that help local companies thrive in today’s digital landscape.
+
+
+      At SparkSphear, we blend deep technical expertise with a personalized,
+      hands-on approach. Whether you need to strengthen your online presence,
+      improve cybersecurity, streamline operations, or keep your systems running
+      at peak performance, our team is committed to supporting you at every
+      step.
+
+
+      **SparkSphear Tech Solutions — empowering Fort Wayne businesses with
+      smarter technology, stronger security, and real results.**
+
+
+
     media:
       title: SparkSphear in Action
       url: /images/placeholder-video.mp4
