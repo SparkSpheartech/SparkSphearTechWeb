@@ -723,7 +723,7 @@ sections:
     type: FeaturedItemsSection
   - title:
       text: Get In Touch
-      color: text-primary
+      color: text-dark
       type: TitleBlock
     subtitle: Let's Transform Your Business Together
     text: >-
