@@ -794,7 +794,7 @@ seo:
     SparkSphear Tech Solutions delivers personalized IT services, digital
     marketing, and creative solutions to help small businesses in the Greater
     Fort Wayne area thrive. Your Vision, Structured to Scale.
-  socialImage: /images/main-hero.jpg
+  socialImage: /images/SparkSphearTechSolutionsMascotLogo.jpg
   type: Seo
 type: PageLayout
 ---
