@@ -25,18 +25,13 @@ const Navbar = () => {
                 {/* Desktop Menu */}
                 <div className="hidden lg:flex items-center gap-8">
                     <nav className="flex gap-8">
-                        {['What we do', 'Our Services', 'Features', 'Solutions', 'FAQ'].map((item) => (
-                            <Link
-                                key={item}
-                                href={`/#${item.toLowerCase().replace(/\s+/g, '-')}`}
-                                className="text-sm font-medium text-white/80 hover:text-white transition-colors"
-                            >
-                                {item}
-                            </Link>
-                        ))}
+                        <Link href="/#our-services" className="text-gray-300 hover:text-white transition-colors">Services</Link>
+                        <Link href="/#process" className="text-gray-300 hover:text-white transition-colors">Process</Link>
+                        <Link href="/#core-values" className="text-gray-300 hover:text-white transition-colors">About</Link>
+                        <a href="https://sparkspheartechsolutions.blogspot.com/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Blog</a>
+                        <Link href="/support" className="text-gray-300 hover:text-white transition-colors">Support</Link>
                     </nav>
-                    {/* High Fidelity: Button matches 'Buy Template' solid green style */}
-                    <Link href="#contact-us" className="btn bg-[#a6fd37] text-dark font-bold px-6 py-3 hover:bg-white transition-colors">
+                    <Link href="#book-meeting" className="btn-primary">
                         Get a quote ↗
                     </Link>
                 </div>
