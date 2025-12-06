@@ -19,7 +19,7 @@
 
     /* Spacing */
     --container-max-width: 1140px;
-    --section-padding: 80px;
+    --section-padding: 50px; /* Reduced for tighter spacing */
     --header-height: 80px;
 
     /* Border Radius */
