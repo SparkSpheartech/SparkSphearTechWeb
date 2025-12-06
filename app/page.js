@@ -12,6 +12,7 @@ import Testimonials from "@/components/Testimonials";
 import Newsletter from "@/components/Newsletter";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
+import HubSpotMeeting from "@/components/HubSpotMeeting";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
             <Newsletter />
             <FAQ />
             <ContactForm />
+            <HubSpotMeeting />
             <Footer />
         </main>
     );

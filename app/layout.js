@@ -28,6 +28,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <head>
+                {/* HubSpot Tracking Script */}
+                <script
+                    type="text/javascript"
+                    id="hs-script-loader"
+                    async
+                    defer
+                    src="//js-na2.hs-scripts.com/244539453.js"
+                />
+            </head>
             <body
                 className={inter.className}
                 style={{ margin: 0 }}
