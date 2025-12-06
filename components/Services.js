@@ -37,8 +37,12 @@ const services = [
 
 const Services = () => {
     return (
-        <section id="our-services" className="section services animate-on-scroll">
+        <section id="our-services" className="section services animate-on-scroll section-with-blobs">
             <div className="container">
+                {/* Animated background blobs */}
+                <div className="bg-blob bg-blob-secondary bg-blob-md" style={{ top: '5%', right: '5%' }}></div>
+                <div className="bg-blob bg-blob-primary bg-blob-sm" style={{ bottom: '10%', left: '8%' }}></div>
+
                 <div className="section-header">
                     <span className="tag">OUR SERVICES</span>
                     <h2>Comprehensive IT Solutions</h2>

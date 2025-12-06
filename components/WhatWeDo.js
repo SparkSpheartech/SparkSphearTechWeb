@@ -4,8 +4,12 @@ import { Globe, ShieldCheck, Camera } from 'lucide-react';
 
 const WhatWeDo = () => {
     return (
-        <section id="what-we-do" className="section what-we-do animate-on-scroll">
+        <section id="what-we-do" className="section what-we-do animate-on-scroll section-with-blobs">
             <div className="container">
+                {/* Floating decorative blobs */}
+                <div className="bg-blob bg-blob-primary bg-blob-lg" style={{ top: '10%', left: '5%' }}></div>
+                <div className="bg-blob bg-blob-secondary bg-blob-md" style={{ bottom: '15%', right: '10%' }}></div>
+
                 <div className="section-header">
                     <span className="tag">WHAT WE DO</span>
                     <h2>Empowering small businesses with comprehensive tech solutions</h2>
