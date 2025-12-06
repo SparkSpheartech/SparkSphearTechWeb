@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="container">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     <div className="footer-col md:col-span-1">
-                        <Link href="#" className="logo text-2xl font-bold text-white mb-6 inline-block">
+                        <Link href="/" className="logo text-2xl font-bold text-white mb-6 inline-block">
                             SparkSphear
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed mb-6">
