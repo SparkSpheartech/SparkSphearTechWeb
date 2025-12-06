@@ -1,14 +1,10 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { kbArticles, kbCategories } from '@/data/kbArticles';
 import { Search, BookOpen, ArrowRight } from 'lucide-react';
-
-export const metadata = {
-    title: 'Knowledge Base | SparkSphear Support',
-    description: 'Browse our collection of helpful articles, guides, and tutorials.',
-};
 
 export default function KnowledgeBase() {
     // Group articles by category

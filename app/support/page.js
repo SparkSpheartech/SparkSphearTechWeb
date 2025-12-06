@@ -1,13 +1,9 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { BookOpen, Ticket, MessageCircle, Phone, Mail, Clock } from 'lucide-react';
-
-export const metadata = {
-    title: 'Support Center | SparkSphear Tech Solutions',
-    description: 'Get help with our knowledge base, submit a ticket, or contact our support team.',
-};
 
 export default function SupportCenter() {
     const supportOptions = [

@@ -1,13 +1,9 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { ArrowRight, Linkedin, Mail, Award, Target, Heart } from 'lucide-react';
-
-export const metadata = {
-    title: 'About the Founder | SparkSphear Tech Solutions',
-    description: 'Meet the founder of SparkSphear Tech Solutions and learn about our mission to empower Fort Wayne businesses with cutting-edge technology.',
-};
 
 export default function About() {
     const values = [
