@@ -52,18 +52,30 @@ export default function SupportCenter() {
                     <div className="container">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                             {supportOptions.map((option, index) => (
-                                <Link
-                                    key={index}
-                                    href={option.link}
-                                    className={`support-card bg-dark-1 border-2 ${option.disabled ? 'border-dark-2 opacity-50 cursor-not-allowed' : 'border-dark-2 hover:border-primary'} rounded-lg p-8 text-center transition-all duration-300 group ${!option.disabled && 'hover:scale-105'}`}
-                                    onClick={(e) => option.disabled && e.preventDefault()}
-                                >
-                                    <div className={`${option.disabled ? 'text-gray-600' : 'text-primary'} mb-6 flex justify-center group-hover:scale-110 transition-transform`}>
-                                        {option.icon}
+                                option.disabled ? (
+                                    <div
+                                        key={index}
+                                        className="support-card bg-dark-1 border-2 border-dark-2 opacity-50 cursor-not-allowed rounded-lg p-8 text-center"
+                                    >
+                                        <div className="text-gray-600 mb-6 flex justify-center">
+                                            {option.icon}
+                                        </div>
+                                        <h3 className="text-white text-2xl font-bold mb-3">{option.title}</h3>
+                                        <p className="text-gray-400">{option.description}</p>
                                     </div>
-                                    <h3 className="text-white text-2xl font-bold mb-3">{option.title}</h3>
-                                    <p className="text-gray-400">{option.description}</p>
-                                </Link>
+                                ) : (
+                                    <Link
+                                        key={index}
+                                        href={option.link}
+                                        className="support-card bg-dark-1 border-2 border-dark-2 hover:border-primary rounded-lg p-8 text-center transition-all duration-300 group hover:scale-105"
+                                    >
+                                        <div className="text-primary mb-6 flex justify-center group-hover:scale-110 transition-transform">
+                                            {option.icon}
+                                        </div>
+                                        <h3 className="text-white text-2xl font-bold mb-3">{option.title}</h3>
+                                        <p className="text-gray-400">{option.description}</p>
+                                    </Link>
+                                )
                             ))}
                         </div>
                     </div>
