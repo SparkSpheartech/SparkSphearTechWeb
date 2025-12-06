@@ -65,7 +65,7 @@ img {
 /* Animations */
 @keyframes fadeInUp {
     from {
-        opacity: 0;
+        /* opacity: 0; REMOVED */
         transform: translateY(30px);
     }
 
@@ -76,7 +76,7 @@ img {
 }
 
 .animate-on-scroll {
-    opacity: 0;
+    /* opacity: 0; REMOVED */
     transform: translateY(30px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
@@ -88,7 +88,7 @@ img {
 
 /* Staggered Animations for Grids */
 .stagger-grid>* {
-    opacity: 0;
+    /* opacity: 0; REMOVED */
     transform: translateY(30px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
