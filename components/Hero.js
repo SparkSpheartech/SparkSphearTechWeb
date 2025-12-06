@@ -5,7 +5,8 @@ import { Play } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section className="relative bg-dark pt-40 pb-20 overflow-hidden" style={{ background: 'linear-gradient(135deg, #1e1b4b 0%, #312e81 100%)' }}>
+        <section className="relative bg-dark pt-40 pb-20 overflow-hidden" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%)' }}>
+            {/* Background video will go here in next update */}
             <div className="container relative z-10 text-center">
                 <div className="hero-content max-w-4xl mx-auto">
                     {/* Main Heading matched to reference: 48px, White, Lexend */}
