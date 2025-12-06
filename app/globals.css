@@ -912,3 +912,10 @@ p {
     position: relative;
     z-index: 1;
 }
+
+/* Team Grid Desktop Definition */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
