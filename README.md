@@ -1,47 +1,46 @@
 # SparkSphear Tech Solutions
 
-A high-performance, modern business website built with **Next.js 14**, **Tailwind CSS**, and **Framer Motion**.
-Designed to be pixel-perfect, mobile-responsive, and SEO-optimized.
+**Your Vision, Structured to Scale.**
 
-## 🚀 Quick Start
+SparkSphear Tech Solutions is a premier Managed Service Provider (MSP) and Digital Agency serving the Greater Fort Wayne area. We empower small to mid-sized businesses by bridging the gap between complex technology and real-world business growth.
 
-### 1. Install Dependencies
-You need [Node.js](https://nodejs.org/) installed.
-```bash
-npm install
-```
+## 🚀 Our Services
 
-### 2. Run Locally
-To see the site on your computer:
-```bash
-npm run dev
-```
-Open `http://localhost:3000` in your browser.
+We provide a comprehensive suite of services designed to be your single point of contact for all things tech:
 
-### 3. Build for Production
-To create the static website for deployment:
+*   **Managed IT Services**: 24/7 monitoring, helpdesk support, and infrastructure management. We keep your systems running so you can focus on your business.
+*   **Cybersecurity**: Enterprise-grade protection tailored for SMBs. Compliance audits, network security, and data protection.
+*   **Digital Marketing & SEO**: Data-driven strategies to increase your online visibility and drive local traffic.
+*   **Web Design & Development**: High-performance, mobile-responsive websites that convert visitors into customers.
+*   **Technology Consulting**: Strategic planning to ensure your technology investment delivers ROI.
+
+---
+
+## 💻 Developer / Deployment Guide
+
+This repository contains the source code for the SparkSphear marketing website. It is built with modern web technologies for speed, SEO, and visual fidelity.
+
+### Tech Stack
+-   **Framework**: Next.js 14 (App Router)
+-   **Styling**: Tailwind CSS + Custom Design System
+-   **Animation**: Framer Motion
+-   **Deployment**: Static Export (Ready for GitHub Pages / Netlify / Vercel)
+
+### Quick Start (Local Development)
+1.  **Install Node.js** (Required).
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Run Development Server**:
+    ```bash
+    npm run dev
+    ```
+    Visit `http://localhost:3000`.
+
+### Production Build
+To generate the static site for deployment:
 ```bash
 npm run build
 ```
-This will create an `out` folder containing your complete static website.
-
-## 📦 Deployment (GitHub Pages)
-
-This project is configured for **Static Export** (`output: 'export'`), making it perfect for GitHub Pages.
-
-1.  **Push** this code to a GitHub repository.
-2.  Go to **Settings** > **Pages** in your GitHub repository.
-3.  Source: Select **GitHub Actions** (recommended) or deploy from the `gh-pages` branch if you configure it manually.
-    *   *Alternative:* Simply upload the contents of the `out` folder to any static host (Netlify, Vercel, Hostinger).
-
-## 🛠️ Tech Stack
--   **Framework:** Next.js 14 (App Router)
--   **Styling:** Tailwind CSS + Custom CSS Variables
--   **Animation:** Framer Motion
--   **Icons:** Lucide React
-
-## 📂 Project Structure
--   `/app`: Pages and Layouts (Home, Blog)
--   `/components`: Reusable UI sections (Hero, Services, Navbar)
--   `/data`: Blog posts content
--   `/public`: Static images and assets
+This generates the `out/` folder, which can be uploaded to any static hosting provider.

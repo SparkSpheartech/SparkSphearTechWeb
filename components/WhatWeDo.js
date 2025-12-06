@@ -1,48 +1,31 @@
 "use client";
 import React from 'react';
-import { CheckCircle } from 'lucide-react';
-
-const benefits = [
-    "Personalized Service: Tailored solutions, no cookie-cutter approaches.",
-    "Local Expertise: We understand the Fort Wayne market.",
-    "Proven Results: Measurable improvements in efficiency and growth.",
-    "24/7 Support: Always available when you need us."
-];
+import { Globe, ShieldCheck, Camera } from 'lucide-react';
 
 const WhatWeDo = () => {
     return (
         <section id="what-we-do" className="section what-we-do animate-on-scroll">
             <div className="container">
-                <div className="split-layout">
-                    <div className="content-col">
-                        <span className="tag">WHY CHOOSE US</span>
-                        <h2>Empowering Fort Wayne Businesses</h2>
-                        <p>
-                            Founded in 2022, SparkSphear Tech Solutions has become a trusted technology partner for small businesses across the Greater Fort Wayne area.
-                            We blend deep technical expertise with a personalized, hands-on approach.
-                        </p>
-                        <p>
-                            Whether you need to strengthen your online presence, improve cybersecurity, or streamline operations,
-                            our team is committed to supporting you at every step.
-                        </p>
-                        <ul className="benefits-list">
-                            {benefits.map((benefit, index) => (
-                                <li key={index}>
-                                    <CheckCircle size={20} className="text-primary" />
-                                    <span>{benefit}</span>
-                                </li>
-                            ))}
-                        </ul>
+                <div className="section-header">
+                    <span className="tag">WHAT WE DO</span>
+                    <h2>Empowering small businesses with comprehensive tech solutions</h2>
+                    <p>From boosting your Google rankings to 24/7 tech support, we're your trusted technology partner in the Greater Fort Wayne area.</p>
+                </div>
+                <div className="features-grid stagger-grid">
+                    <div className="feature-card">
+                        <Globe />
+                        <h3>Digital Growth</h3>
+                        <p>Boost your online presence and reach your target audience with our digital marketing strategies.</p>
                     </div>
-                    <div className="image-col">
-                        <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100 group">
-                            <div className="absolute inset-0 bg-[#a6fd37]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
-                            <img
-                                src="/images/dashboard.png"
-                                alt="SparkSphear Dashboard Visualization"
-                                className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
-                            />
-                        </div>
+                    <div className="feature-card">
+                        <ShieldCheck />
+                        <h3>Reliable Support</h3>
+                        <p>24/7 technical assistance to keep your business running smoothly without interruption.</p>
+                    </div>
+                    <div className="feature-card">
+                        <Camera />
+                        <h3>Creative Visuals</h3>
+                        <p>High-quality photography and videography to capture and tell your brand's unique story.</p>
                     </div>
                 </div>
             </div>
