@@ -19,7 +19,7 @@ const Navbar = () => {
         <header className={`header ${scrolled ? 'scrolled' : ''}`}>
             <div className="container header-container">
                 <Link href="#" className="logo">
-                    SparkSphearTechSolutions
+                    SparkSphear Tech Solutions
                 </Link>
 
                 {/* Desktop Menu */}
