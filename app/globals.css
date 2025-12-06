@@ -479,19 +479,30 @@ p {
 
 /* Section: Testimonials */
 .testimonials {
-    background-color: #f9f9f9;
+    background-color: white;
+    /* Clean white background */
 }
 
 .testimonials-slider {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    /* Reference uses 2-column */
+    gap: 32px;
 }
 
 .testimonial-card {
     background-color: var(--color-light);
     padding: 40px;
+    border-radius: var(--radius-md);
+    /* 12px */
     border: 1px solid var(--color-border);
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    transform: translateY(-4px);
 }
 
 .testimonial-card p {
