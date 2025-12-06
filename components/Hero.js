@@ -3,30 +3,9 @@ import React from 'react';
 import Link from 'next/link';
 import { Play } from 'lucide-react';
 
-// Custom SVG Squiggles for that "Hand-drawn" look
-const SquiggleLeft = () => (
-    <svg width="200" height="200" viewBox="0 0 200 200" className="absolute bottom-0 left-0 -translate-x-1/2 translate-y-1/4 z-0 opacity-80" style={{ pointerEvents: 'none' }} fill="none">
-        <path d="M10 100 Q 50 10, 90 100 T 180 100" stroke="#a6fd37" strokeWidth="4" strokeLinecap="round" />
-        <path d="M10 120 Q 50 30, 90 120 T 180 120" stroke="#a6fd37" strokeWidth="4" strokeLinecap="round" opacity="0.6" />
-        <circle cx="20" cy="80" r="4" fill="#a6fd37" />
-        <circle cx="160" cy="140" r="6" fill="#a6fd37" />
-    </svg>
-);
-
-const SquiggleRight = () => (
-    <svg width="150" height="150" viewBox="0 0 150 150" className="absolute top-20 right-0 translate-x-1/2 z-0 opacity-80" style={{ pointerEvents: 'none' }} fill="none">
-        <path d="M10 75 Q 40 10, 75 75 T 140 75" stroke="#a6fd37" strokeWidth="4" strokeLinecap="round" />
-        <circle cx="120" cy="40" r="5" fill="#a6fd37" />
-        <path d="M130 20 L 140 30 M 140 20 L 130 30" stroke="#a6fd37" strokeWidth="3" />
-    </svg>
-);
-
 const Hero = () => {
     return (
-        <section className="relative bg-dark pt-40 pb-20 overflow-hidden" style={{ backgroundColor: "#1b1b1b" }}>
-            <SquiggleLeft />
-            <SquiggleRight />
-
+        <section className="relative bg-dark pt-40 pb-20 overflow-hidden" style={{ background: 'linear-gradient(135deg, #1e1b4b 0%, #312e81 100%)' }}>
             <div className="container relative z-10 text-center">
                 <div className="hero-content max-w-4xl mx-auto">
                     {/* Main Heading matched to reference: 48px, White, Lexend */}

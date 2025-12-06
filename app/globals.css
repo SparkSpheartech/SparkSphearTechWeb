@@ -3,28 +3,40 @@
 @tailwind utilities;
 
 :root {
-    /* Colors */
-    --color-primary: #a6fd37;
-    /* Neon Lime */
-    --color-dark: #1b1b1b;
-    /* Dark Background/Text */
+    /* PRIMARY COLORS - Indigo Theme (Reference Site) */
+    --color-primary: #6366f1;
+    /* Changed from #a6fd37 lime to indigo */
+    --color-primary-dark: #4f46e5;
+    --color-primary-light: #818cf8;
+
+    /* NEUTRAL COLORS */
+    --color-dark: #1e1b4b;
+    /* Deep indigo-black */
     --color-light: #ffffff;
-    /* White Text/Background */
-    --color-text-body: #1b1b1b;
-    --color-text-muted: #666;
-    --color-border: #e0e0e0;
+    --color-gray-50: #f8fafc;
+    --color-gray-100: #f1f5f9;
+    --color-gray-200: #e2e8f0;
+    --color-gray-600: #475569;
 
-    /* Typography */
-    --font-family-primary: 'Lexend', sans-serif;
+    /* TEXT COLORS */
+    --color-text-body: #334155;
+    --color-text-muted: #64748b;
+    --color-border: #e2e8f0;
 
-    /* Spacing */
-    --container-max-width: 1140px;
-    --section-padding: 50px; /* Reduced for tighter spacing */
+    /* TYPOGRAPHY - Inter Font (Reference Site) */
+    --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+    /* SPACING */
+    --container-max-width: 1200px;
+    /* Updated from 1140px */
+    --section-padding: 80px;
+    /* Reference site uses 80px */
     --header-height: 80px;
 
-    /* Border Radius */
+    /* BORDER RADIUS */
     --radius-sm: 4px;
-    --radius-md: 8px;
+    --radius-md: 12px;
+    /* Updated from 8px */
     --radius-lg: 16px;
 }
 
@@ -795,6 +807,7 @@ p {
         color: rgba(255, 255, 255, 0.5);
     }
 }
+
 /* ========================================
    FLUID ANIMATIONS & BACKGROUND ELEMENTS
    ======================================== */
@@ -806,31 +819,41 @@ p {
 
 /* Floating blob animations */
 @keyframes float {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translate(0, 0) scale(1);
     }
+
     33% {
         transform: translate(30px, -30px) scale(1.1);
     }
+
     66% {
         transform: translate(-20px, 20px) scale(0.9);
     }
 }
 
 @keyframes floatReverse {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translate(0, 0) rotate(0deg);
     }
+
     50% {
         transform: translate(-40px, 40px) rotate(10deg);
     }
 }
 
 @keyframes pulse {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 0.3;
         transform: scale(1);
     }
+
     50% {
         opacity: 0.6;
         transform: scale(1.05);
@@ -908,7 +931,7 @@ p {
 }
 
 /* Ensure content stays above blobs */
-.section-with-blobs > .container {
+.section-with-blobs>.container {
     position: relative;
     z-index: 1;
 }
