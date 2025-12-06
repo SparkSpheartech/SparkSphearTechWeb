@@ -10,19 +10,21 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
-return (
-    <main className="min-h-screen bg-white">
-        <Navbar />
-        <Hero />
-        <WhatWeDo />
-        <Services />
-        <Features />
-        <Stats />
-        <Team />
-        <Testimonials />
-        <FAQ />
-        <ContactForm />
-        <Footer />
-    </main>
-);
+
+export default function Home() {
+    return (
+        <main className="min-h-screen bg-white">
+            <Navbar />
+            <Hero />
+            <WhatWeDo />
+            <Services />
+            <Features />
+            <Stats />
+            <Team />
+            <Testimonials />
+            <FAQ />
+            <ContactForm />
+            <Footer />
+        </main>
+    );
 }
