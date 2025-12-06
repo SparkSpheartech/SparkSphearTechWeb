@@ -1,5 +1,5 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -13,19 +13,22 @@ const formSchema = z.object({
 });
 
 const ContactForm = () => {
+    const [isSuccess, setIsSuccess] = useState(false);
     const {
         register,
         handleSubmit,
         formState: { errors, isSubmitting },
+        reset,
     } = useForm({
         resolver: zodResolver(formSchema),
     });
 
     const onSubmit = async (data) => {
-        // Simulate form submission
-        console.log(data);
-        await new Promise((resolve) => setTimeout(resolve, 2000));
-        alert("Thanks! We'll be in touch shortly.");
+        // Here you would typically send the data to an API
+        // For now, we'll just simulate a success
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        setIsSuccess(true);
+        reset();
     };
 
     return (
