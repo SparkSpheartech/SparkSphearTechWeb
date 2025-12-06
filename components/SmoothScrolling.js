@@ -1,12 +1,9 @@
 "use client";
-import { ReactLenis } from "@studio-freight/react-lenis";
 
 function SmoothScrolling({ children }) {
-    return (
-        <ReactLenis root options={{ lerp: 0.1, duration: 1.5, smoothWheel: true }}>
-            {children}
-        </ReactLenis>
-    );
+    // Using native browser smooth scroll instead of Lenis for better performance
+    // CSS scroll-behavior: smooth is already set in globals.css
+    return <>{children}</>;
 }
 
 export default SmoothScrolling;
