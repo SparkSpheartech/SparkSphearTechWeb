@@ -18,8 +18,8 @@ const Navbar = () => {
     return (
         <header className={`header ${scrolled ? 'scrolled' : ''}`}>
             <div className="container header-container">
-                <Link href="#" className="logo">
-                    SparkSphear Tech Solutions
+                <Link href="#" className="logo flex items-center gap-2">
+                    <img src="/logo.png" alt="SparkSphear Logo" className="h-10 w-auto" />
                 </Link>
 
                 {/* Desktop Menu */}
