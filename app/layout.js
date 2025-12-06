@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import SmoothScrolling from "@/components/SmoothScrolling";
 import HashScrollHandler from "@/components/HashScrollHandler";
+import PageTransition from "@/components/PageTransition";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -50,7 +51,9 @@ export default function RootLayout({ children }) {
             >
                 <SmoothScrolling>
                     <HashScrollHandler />
-                    {children}
+                    <PageTransition>
+                        {children}
+                    </PageTransition>
                 </SmoothScrolling>
             </body>
         </html>
