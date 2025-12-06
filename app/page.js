@@ -4,9 +4,12 @@ import Hero from "@/components/Hero";
 import WhatWeDo from "@/components/WhatWeDo";
 import Services from "@/components/Services";
 import Features from "@/components/Features";
+import Process from "@/components/Process";
+import CoreValues from "@/components/CoreValues";
 import Stats from "@/components/Stats";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
+import Newsletter from "@/components/Newsletter";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
@@ -19,9 +22,12 @@ export default function Home() {
             <WhatWeDo />
             <Services />
             <Features />
+            <Process />
+            <CoreValues />
             <Stats />
             <Team />
             <Testimonials />
+            <Newsletter />
             <FAQ />
             <ContactForm />
             <Footer />
