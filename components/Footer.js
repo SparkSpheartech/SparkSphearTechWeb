@@ -23,8 +23,8 @@ const Footer = () => {
                             <li><Link href="#what-we-do" className="text-gray-400 hover:text-[#a6fd37] transition-colors">What we do</Link></li>
                             <li><Link href="#our-services" className="text-gray-400 hover:text-[#a6fd37] transition-colors">Our Services</Link></li>
                             <li><Link href="#features" className="text-gray-400 hover:text-[#a6fd37] transition-colors">Features</Link></li>
-                            {/* Added Blog Link */}
-                            <li><Link href="/blog" className="text-gray-400 hover:text-[#a6fd37] transition-colors">Insights Blog</Link></li>
+                            {/* Updated Blog Link to External */}
+                            <li><a href="https://sparkspheartechsolutions.blogspot.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#a6fd37] transition-colors">Blog</a></li>
                         </ul>
                     </div>
 
