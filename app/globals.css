@@ -185,28 +185,34 @@ p {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 32px;
+    padding: 14px 32px;
+    /* Reference site padding */
     font-weight: 600;
-    border-radius: 0;
+    font-size: 15px;
+    border-radius: 6px;
+    /* Reference uses 6px, not 0 */
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    transition: all 0.2s ease;
+    /* Faster transition like reference */
     gap: 8px;
 }
 
 .btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    /* Subtle lift */
 }
 
 .btn-primary {
     background-color: var(--color-primary);
-    color: var(--color-dark);
-    border: 2px solid var(--color-primary);
+    color: white;
+    /* Reference uses white text */
+    border: none;
 }
 
 .btn-primary:hover {
-    background-color: transparent;
-    color: var(--color-primary);
+    background-color: var(--color-primary-dark);
+    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+    /* Indigo shadow */
 }
 
 .btn-outline {

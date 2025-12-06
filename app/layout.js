@@ -1,34 +1,40 @@
-import { Lexend } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import SmoothScrolling from "@/components/SmoothScrolling";
 
-const lexend = Lexend({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700"] });
+const inter = Inter({
+    subsets: ["latin"],
+    display: "swap",
+});
 
 export const metadata = {
+    metadataBase: new URL('https://sparkspheartechsolutions.com'),
     title: {
         default: "SparkSphear Tech Solutions | Fort Wayne IT Services",
         template: "%s | SparkSphear Tech Solutions"
     },
-    description: "Expert Managed IT, Cybersecurity, and Digital Marketing services for Fort Wayne small businesses. Local, reliable, and scalable technology solutions.",
-    keywords: ["IT Services Fort Wayne", "Managed Service Provider", "Cybersecurity", "Web Design", "Digital Marketing", "Tech Support"],
-    icons: {
-        icon: '/favicon.ico',
-    },
+    description: "Premier IT services, digital marketing, and technology support for Fort Wayne businesses. 24/7 support, cybersecurity, web design, and more.",
+    keywords: ["IT services Fort Wayne", "managed IT", "cybersecurity", "web design", "digital marketing", "technology support"],
     openGraph: {
+        type: "website",
+        locale: "en_US",
+        url: "https://sparkspheartechsolutions.com",
         title: "SparkSphear Tech Solutions",
-        description: "Empowering Fort Wayne businesses with personalized technology solutions.",
-        url: 'https://sparksphear.com',
+        description: "Premier IT services and digital marketing for Fort Wayne businesses.",
         siteName: 'SparkSphear Tech Solutions',
-        locale: 'en_US',
-        type: 'website',
     },
 };
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={lexend.className}>
-                <SmoothScrolling>{children}</SmoothScrolling>
+            <body
+                className={inter.className}
+                style={{ margin: 0 }}
+            >
+                <SmoothScrolling>
+                    {children}
+                </SmoothScrolling>
             </body>
         </html>
     );
