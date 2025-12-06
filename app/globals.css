@@ -368,34 +368,42 @@ p {
 
 .feature-card {
     background-color: var(--color-light);
-    padding: 30px;
+    padding: 40px;
     border-radius: var(--radius-md);
+    /* 12px */
+    border: 1px solid var(--color-border);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-color: var(--color-primary);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    transform: translateY(-4px);
 }
 
 /* Section: Services */
 .services {
-    background-color: #f4f6fc;
+    background-color: var(--color-gray-50);
+    /* Light gray background */
 }
 
 .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 32px;
+    /* Updated from 30px to match reference */
     margin-bottom: 60px;
 }
 
 .service-card {
     background-color: var(--color-light);
-    padding: 40px 30px;
+    padding: 40px;
+    border-radius: var(--radius-md);
+    /* 12px */
+    border: 1px solid var(--color-border);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .service-card:hover {
