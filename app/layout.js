@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SmoothScrolling from "@/components/SmoothScrolling";
+import HashScrollHandler from "@/components/HashScrollHandler";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
                 style={{ margin: 0 }}
             >
                 <SmoothScrolling>
+                    <HashScrollHandler />
                     {children}
                 </SmoothScrolling>
             </body>
