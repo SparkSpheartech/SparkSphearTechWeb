@@ -15,6 +15,11 @@ export const metadata = {
     },
     description: "Premier IT services, digital marketing, and technology support for Fort Wayne businesses. 24/7 support, cybersecurity, web design, and more.",
     keywords: ["IT services Fort Wayne", "managed IT", "cybersecurity", "web design", "digital marketing", "technology support"],
+    icons: {
+        icon: '/logo.png',
+        shortcut: '/logo.png',
+        apple: '/logo.png',
+    },
     openGraph: {
         type: "website",
         locale: "en_US",
