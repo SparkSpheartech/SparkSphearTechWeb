@@ -1057,3 +1057,85 @@ p {
 body {
     padding-top: 80px;
 }
+
+/* Premium Polish & Micro-Animations */
+
+/* Smooth link hover */
+a {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Card hover effects */
+.card, .service-card, .support-card, .team-member {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover, .service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(166, 253, 55, 0.15);
+}
+
+/* Button glow effect */
+.btn-primary, button[type='submit'] {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 20px rgba(166, 253, 55, 0.4), 0 0 40px rgba(166, 253, 55, 0.2);
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Loading state */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.loading {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Icon animations */
+.icon-bounce {
+    transition: transform 0.3s ease;
+}
+
+.icon-bounce:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* Gradient text */
+.gradient-text {
+    background: linear-gradient(135deg, #a6fd37 0%, #00ff9d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Divider animation */
+.section-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #a6fd37, transparent);
+    opacity: 0.3;
+}
+
+/* Focus states for accessibility */
+a:focus, button:focus, input:focus {
+    outline: 2px solid #a6fd37;
+    outline-offset: 2px;
+}
+
+/* Improved form inputs */
+input, textarea, select {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #a6fd37;
+    box-shadow: 0 0 0 3px rgba(166, 253, 55, 0.1);
+}
