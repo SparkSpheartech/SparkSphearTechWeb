@@ -170,39 +170,37 @@ export default function RootLayout({ children }) {
                                             "description": "24/7 IT support and monitoring"
                                         }
                                     },
-                                    {
-                                        "@type": "Offer",
-                                        "itemOffered": {
-                                            "@type": "Service",
-                                            "name": "Cybersecurity",
-                                            "description": "Security audits and compliance"
+                                    "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                "name": "Data Engineering",
+                "description": "Data pipeline development and analytics solutions"
+                                        }
+                {
+                    "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                "name": "Web Design",
+                "description": "Custom website design and development"
                                         }
                                     },
-                                    {
-                                        "@type": "Offer",
-                                        "itemOffered": {
-                                            "@type": "Service",
-                                            "name": "Web Design",
-                                            "description": "Custom website design and development"
+                {
+                    "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                "name": "Digital Marketing",
+                "description": "SEO, social media, and online marketing"
                                         }
                                     },
-                                    {
-                                        "@type": "Offer",
-                                        "itemOffered": {
-                                            "@type": "Service",
-                                            "name": "Digital Marketing",
-                                            "description": "SEO, social media, and online marketing"
-                                        }
-                                    },
-                                    {
-                                        "@type": "Offer",
-                                        "itemOffered": {
-                                            "@type": "Service",
-                                            "name": "AI and Automation",
-                                            "description": "AI-powered solutions and business automation"
+                {
+                    "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                "name": "AI and Automation",
+                "description": "AI-powered solutions and business automation"
                                         }
                                     }
-                                ]
+                ]
                             }
                         })
                     }}
