@@ -12,11 +12,46 @@ const inter = Inter({
 export const metadata = {
     metadataBase: new URL('https://sparkspheartechsolutions.com'),
     title: {
-        default: "SparkSphear Tech Solutions | Fort Wayne IT Services",
+        default: "SparkSphear Tech Solutions | Fort Wayne IT Services & Digital Marketing",
         template: "%s | SparkSphear Tech Solutions"
     },
-    description: "Premier IT services, digital marketing, and technology support for Fort Wayne businesses. 24/7 support, cybersecurity, web design, and more.",
-    keywords: ["IT services Fort Wayne", "managed IT", "cybersecurity", "web design", "digital marketing", "technology support"],
+    description: "Fort Wayne's premier IT services company. 24/7 managed IT support, cybersecurity, web design, and digital marketing for small businesses in Northeast Indiana. Fast response times, expert solutions.",
+    keywords: [
+        // Primary services
+        "IT services Fort Wayne",
+        "managed IT Fort Wayne",
+        "cybersecurity Fort Wayne",
+        "web design Fort Wayne",
+        "digital marketing Fort Wayne",
+        "technology support Fort Wayne",
+        "Fort Wayne IT company",
+        "Northeast Indiana IT services",
+        // Common misspellings
+        "sparksphare tech solutions",
+        "sparksphere tech solutions",
+        "spark sphere tech",
+        "spark sphear solutions",
+        "sparkspear tech",
+        // Additional relevant terms
+        "24/7 IT support",
+        "small business IT",
+        "IT consulting Fort Wayne",
+        "managed service provider Fort Wayne"
+    ],
+    authors: [{ name: "SparkSphear Tech Solutions" }],
+    creator: "SparkSphear Tech Solutions",
+    publisher: "SparkSphear Tech Solutions",
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
     icons: {
         icon: '/logo.png',
         shortcut: '/logo.png',
@@ -26,9 +61,26 @@ export const metadata = {
         type: "website",
         locale: "en_US",
         url: "https://sparkspheartechsolutions.com",
-        title: "SparkSphear Tech Solutions",
-        description: "Premier IT services and digital marketing for Fort Wayne businesses.",
+        title: "SparkSphear Tech Solutions | Fort Wayne IT Services & Digital Marketing",
+        description: "Fort Wayne's premier IT services company. 24/7 managed IT support, cybersecurity, web design, and digital marketing for small businesses in Northeast Indiana.",
         siteName: 'SparkSphear Tech Solutions',
+        images: [
+            {
+                url: '/logo.png',
+                width: 1200,
+                height: 630,
+                alt: 'SparkSphear Tech Solutions Logo',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: "SparkSphear Tech Solutions | Fort Wayne IT Services",
+        description: "24/7 managed IT support, cybersecurity, web design, and digital marketing for Fort Wayne businesses.",
+        images: ['/logo.png'],
+    },
+    alternates: {
+        canonical: 'https://sparkspheartechsolutions.com',
     },
 };
 
@@ -57,6 +109,146 @@ export default function RootLayout({ children }) {
                             gtag('js', new Date());
                             gtag('config', 'G-XFW1TLBRQS');
                         `,
+                    }}
+                />
+                {/* Schema.org Structured Data - LocalBusiness */}
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "@id": "https://sparkspheartechsolutions.com/#organization",
+                            "name": "SparkSphear Tech Solutions",
+                            "alternateName": ["SparkSphere Tech Solutions", "Spark Sphear Solutions"],
+                            "url": "https://sparkspheartechsolutions.com",
+                            "logo": "https://sparkspheartechsolutions.com/logo.png",
+                            "image": "https://sparkspheartechsolutions.com/logo.png",
+                            "description": "Fort Wayne's premier IT services company providing 24/7 managed IT support, cybersecurity, web design, and digital marketing for small businesses in Northeast Indiana.",
+                            "priceRange": "$$",
+                            "telephone": "+1-260-000-0000",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "streetAddress": "",
+                                "addressLocality": "Fort Wayne",
+                                "addressRegion": "IN",
+                                "postalCode": "46825",
+                                "addressCountry": "US"
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 41.0793,
+                                "longitude": -85.1394
+                            },
+                            "areaServed": {
+                                "@type": "GeoCircle",
+                                "geoMidpoint": {
+                                    "@type": "GeoCoordinates",
+                                    "latitude": 41.0793,
+                                    "longitude": -85.1394
+                                },
+                                "geoRadius": "50000",
+                                "description": "Greater Fort Wayne area and Northeast Indiana"
+                            },
+                            "openingHoursSpecification": [
+                                {
+                                    "@type": "OpeningHoursSpecification",
+                                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                                    "opens": "08:00",
+                                    "closes": "18:00"
+                                }
+                            ],
+                            "hasOfferCatalog": {
+                                "@type": "OfferCatalog",
+                                "name": "IT Services",
+                                "itemListElement": [
+                                    {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                            "@type": "Service",
+                                            "name": "Managed IT Services",
+                                            "description": "24/7 IT support and monitoring"
+                                        }
+                                    },
+                                    {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                            "@type": "Service",
+                                            "name": "Cybersecurity",
+                                            "description": "Security audits and compliance"
+                                        }
+                                    },
+                                    {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                            "@type": "Service",
+                                            "name": "Web Design",
+                                            "description": "Custom website design and development"
+                                        }
+                                    },
+                                    {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                            "@type": "Service",
+                                            "name": "Digital Marketing",
+                                            "description": "SEO, social media, and online marketing"
+                                        }
+                                    }
+                                ]
+                            }
+                        })
+                    }}
+                />
+                {/* Schema.org Structured Data - FAQPage */}
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "What areas do you serve?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "We primarily serve the Greater Fort Wayne area and surrounding communities in Northeast Indiana, providing both on-site and remote support."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Do you offer 24/7 support?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Yes, our Managed IT packages include round-the-clock monitoring and emergency support to ensure your business never stops running."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "How does your pricing work?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "We offer flexible flat-rate monthly packages for Managed Services, so you have a predictable budget. Project work (like web design) is quoted upfront."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Can you help with cybersecurity compliance?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Absolutely. We help businesses meet industry standards (like HIPAA or PCI-DSS) through rigorous security audits and protocol implementation."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "How fast is your response time?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "For critical issues, our average response time is under 15 minutes. We prioritize keeping your operations moving."
+                                    }
+                                }
+                            ]
+                        })
                     }}
                 />
             </head>
