@@ -193,6 +193,14 @@ export default function RootLayout({ children }) {
                                             "name": "Digital Marketing",
                                             "description": "SEO, social media, and online marketing"
                                         }
+                                    },
+                                    {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                            "@type": "Service",
+                                            "name": "AI and Automation",
+                                            "description": "AI-powered solutions and business automation"
+                                        }
                                     }
                                 ]
                             }
