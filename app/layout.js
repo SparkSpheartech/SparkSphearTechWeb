@@ -126,7 +126,7 @@ export default function RootLayout({ children }) {
                             "image": "https://sparkspheartechsolutions.com/logo.png",
                             "description": "Fort Wayne's premier IT services company providing 24/7 managed IT support, cybersecurity, web design, and digital marketing for small businesses in Northeast Indiana.",
                             "priceRange": "$$",
-                            "telephone": "+1-260-000-0000",
+                            "telephone": "+1-260-267-0641",
                             "address": {
                                 "@type": "PostalAddress",
                                 "streetAddress": "",
