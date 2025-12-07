@@ -17,20 +17,26 @@ const WhatWeDo = () => {
                     <p>From boosting your Google rankings to 24/7 tech support, we're your trusted technology partner in the Greater Fort Wayne area.</p>
                 </div>
                 <div className="features-grid stagger-grid">
-                    <Link href="/services/digital-marketing" className="feature-card cursor-pointer transition-transform hover:scale-105">
-                        <Globe />
-                        <h3>Digital Growth</h3>
-                        <p>Boost your online presence and reach your target audience with our digital marketing strategies.</p>
+                    <Link href="/services/digital-marketing">
+                        <div className="feature-card cursor-pointer transition-transform hover:scale-105">
+                            <Globe />
+                            <h3>Digital Growth</h3>
+                            <p>Boost your online presence and reach your target audience with our digital marketing strategies.</p>
+                        </div>
                     </Link>
-                    <Link href="#contact-us" className="feature-card cursor-pointer transition-transform hover:scale-105">
-                        <ShieldCheck />
-                        <h3>Reliable Support</h3>
-                        <p>24/7 technical assistance to keep your business running smoothly without interruption.</p>
+                    <Link href="#contact-us">
+                        <div className="feature-card cursor-pointer transition-transform hover:scale-105">
+                            <ShieldCheck />
+                            <h3>Reliable Support</h3>
+                            <p>24/7 technical assistance to keep your business running smoothly without interruption.</p>
+                        </div>
                     </Link>
-                    <Link href="/services/photography-videography" className="feature-card cursor-pointer transition-transform hover:scale-105">
-                        <Camera />
-                        <h3>Creative Visuals</h3>
-                        <p>High-quality photography and videography to capture and tell your brand's unique story.</p>
+                    <Link href="/services/photography-videography">
+                        <div className="feature-card cursor-pointer transition-transform hover:scale-105">
+                            <Camera />
+                            <h3>Creative Visuals</h3>
+                            <p>High-quality photography and videography to capture and tell your brand's unique story.</p>
+                        </div>
                     </Link>
                 </div>
             </div>
