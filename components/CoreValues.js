@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from 'next/link';
 import { Shield, Users, TrendingUp, Award, Lightbulb, Heart } from 'lucide-react';
 
 const CoreValues = () => {
@@ -62,6 +63,14 @@ const CoreValues = () => {
                             <p className="text-gray-400 leading-relaxed">{value.description}</p>
                         </div>
                     ))}
+                </div>
+                <div className="text-center mt-12">
+                    <Link
+                        href="/about"
+                        className="inline-flex items-center justify-center px-8 py-4 bg-primary text-dark font-bold hover:bg-primary/90 transition-all duration-300 rounded-md"
+                    >
+                        Learn About Our Team
+                    </Link>
                 </div>
             </div>
         </section>

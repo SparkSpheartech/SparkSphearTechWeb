@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from 'next/link';
 
 const Features = () => {
     return (
@@ -22,6 +23,14 @@ const Features = () => {
                         <h3>Comprehensive Solutions</h3>
                         <p>One partner for IT, Marketing, and Creative needs, simplifying your vendor management.</p>
                     </div>
+                </div>
+                <div className="text-center mt-12">
+                    <Link
+                        href="#contact-us"
+                        className="inline-flex items-center justify-center px-8 py-4 bg-primary text-dark font-bold hover:bg-primary/90 transition-all duration-300 rounded-md"
+                    >
+                        Get Started Today
+                    </Link>
                 </div>
             </div>
         </section>
