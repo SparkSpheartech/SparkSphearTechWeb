@@ -44,6 +44,21 @@ export default function RootLayout({ children }) {
                     defer
                     src="//js-na2.hs-scripts.com/244539453.js"
                 />
+                {/* Google Analytics */}
+                <script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=G-XFW1TLBRQS"
+                />
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-XFW1TLBRQS');
+                        `,
+                    }}
+                />
             </head>
             <body
                 className={inter.className}
