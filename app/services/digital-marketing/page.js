@@ -1,13 +1,9 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { TrendingUp, Target, BarChart, Users, CheckCircle, ArrowRight } from 'lucide-react';
-
-export const metadata = {
-    title: 'Digital Marketing Services | SparkSphear',
-    description: 'Data-driven digital marketing strategies to grow your online presence and drive measurable business results.',
-};
 
 export default function DigitalMarketing() {
     const services = [

@@ -1,13 +1,9 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Database, Search, Cloud, Shield, CheckCircle, ArrowRight } from 'lucide-react';
-
-export const metadata = {
-    title: 'IT Infrastructure Audits | SparkSphear',
-    description: 'Comprehensive technology assessments including competitor analysis, data engineering, cloud infrastructure, and security audits.',
-};
 
 export default function ITAudits() {
     const services = [

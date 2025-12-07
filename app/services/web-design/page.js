@@ -1,13 +1,9 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Monitor, Smartphone, Zap, TrendingUp, CheckCircle, ArrowRight } from 'lucide-react';
-
-export const metadata = {
-    title: 'Web Design Services | SparkSphear',
-    description: 'Modern, high-converting websites built with stunning design and cutting-edge technology. Responsive, fast, and optimized for results.',
-};
 
 export default function WebDesign() {
     const services = [

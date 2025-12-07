@@ -1,13 +1,9 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Brain, Zap, Bot, TrendingUp, CheckCircle, ArrowRight } from 'lucide-react';
-
-export const metadata = {
-    title: 'AI & Automation Services | SparkSphear Tech Solutions',
-    description: 'Transform your business with AI-powered automation. Streamline workflows, enhance decision-making, and scale efficiently.',
-};
 
 export default function AIAutomation() {
     const benefits = [

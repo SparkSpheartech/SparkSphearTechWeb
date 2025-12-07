@@ -1,13 +1,9 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Camera, Video, Image, Award, CheckCircle, ArrowRight } from 'lucide-react';
-
-export const metadata = {
-    title: 'Photography & Videography Services | SparkSphear',
-    description: 'Professional photography and video production to elevate your brand. Corporate events, product shoots, promotional videos, and more.',
-};
 
 export default function PhotographyVideography() {
     const services = [
@@ -154,8 +150,8 @@ export default function PhotographyVideography() {
                                     <Link
                                         href="#book-meeting"
                                         className={`block text-center px-6 py-3 rounded-md font-bold transition-all ${pkg.popular
-                                                ? 'bg-primary text-dark hover:bg-primary/90'
-                                                : 'bg-dark-2 text-white border-2 border-dark-2 hover:border-primary'
+                                            ? 'bg-primary text-dark hover:bg-primary/90'
+                                            : 'bg-dark-2 text-white border-2 border-dark-2 hover:border-primary'
                                             }`}
                                     >
                                         Book Session
